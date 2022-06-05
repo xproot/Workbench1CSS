@@ -1,0 +1,90 @@
+<!-- SAMPLE HTML!!!! YOU CAN USE IT TO GUIDE -->
+<html lang="en">
+    <head>
+        <title>Workbench 1.x CSS</title>
+        <link rel="stylesheet" type="text/css" href="workbench1.css">
+        <style type="text/css">
+            /* Topaz New font by Alan Tinsley (https://www.dafont.com/topaz-new.font) */
+            @font-face {
+                font-family: "Topaz";
+                src: url(https://midi.xproot.pw/assets/fonts/topaz.ttf);
+                font-display: swap;
+            }
+            .topaz { font-family: Topaz, sans-serif;}
+            .center { text-align: center; }
+        </style>
+    </head>
+    <body>
+        <div class="topbar">
+            <span>Workbench 1.x CSS</span><span class="margin">Release</span>
+            <!-- You could add buttons like in here -->
+            <div class="buttons">
+                <img alt="Disabled" width="25" height="20" src="/assets/wb1.gif"><img alt="Disabled" width="28" height="20" src="/assets/wb2.gif"> 
+            </div>
+        </div>
+        <div class="window">
+            <div class="titlebar">
+                <span>Workbench 1.x CSS</span>
+                <div class="buttons">
+                    <img alt="Disabled" width="25" height="20" src="/assets/wb1.gif"><img alt="Disabled" width="28" height="20" src="/assets/wb2.gif">
+                </div>
+            </div>
+            <div class="content">
+                <h1 class=center>CSS Style Destined to look like Workbench 1.x</h1>
+            </div>
+        </div>
+        <p class="center">
+           CSS Stylesheet that is designed to look like A Workbench 1.x, <a href="https://github.com/xproot/Workbench1CSS">View on GitHub</a><br>
+           <span class="topaz">Topaz New</span> font recommended.
+
+           Every window should follow this template
+        </p>
+        <div class="window">
+            <div class="titlebar">
+                <span>Window Template</span>
+                <div class="buttons">
+                    <img alt="Disabled" width="25" height="20" src="/assets//wb1.gif"><img alt="Disabled" width="28" height="20" src="/assets/wb2.gif">
+                </div>
+            </div>
+            <div class="content">
+                &lt;div class=&quot;window&quot;&gt;<br>
+                &lt;div class=&quot;titlebar&quot;&gt;<br>
+                    &lt;span&gt;Title&lt;/span&gt;<br>
+                    (Optional)<br>
+                    &lt;div class=&quot;buttons&quot;&gt;<br>
+                        &lt;img alt=&quot;Disabled&quot; width=&quot;25&quot; height=&quot;20&quot; src=&quot;wb1.gif&quot;&gt;&lt;img alt=&quot;Disabled&quot; width=&quot;28&quot; height=&quot;20&quot; src=&quot;wb2.gif&quot;&gt;<br>
+                    &lt;/div&gt;<br>
+                    (You'll have to upload the images to your webserver)<br>
+                &lt;/div&gt;<br>
+                &lt;div class=&quot;content&quot;&gt;<br>
+                    Content<br>
+                &lt;/div&gt;<br>
+                &lt;/div&gt;<br> 
+            </div>
+        </div>
+        
+        <div class="fullwidth window">
+            <div class="titlebar">
+                <span>Full-Width Window</span>
+                <div class="buttons">
+                    <img alt="Disabled" width="25" height="20" src="/assets/wb1.gif"><img alt="Disabled" width="28" height="20" src="/assets/wb2.gif">
+                </div>
+            </div>
+            <div class="content">
+                &lt;div class&quot;fullwidth window&quot;&gt; will cause a Full-Width window
+            </div>
+        </div>
+
+        <div class="window">
+            <div class="titlebar">
+                <span>No Scrollbars Window</span>
+                <div class="buttons">
+                    <img alt="Disabled" width="25" height="20" src="/assets/wb1.gif"><img alt="Disabled" width="28" height="20" src="/assets/wb2.gif">
+                </div>
+            </div>
+            <div class="noscroll content">
+                &lt;div class&quot;noscroll content&quot;&gt; will cause a window with no scrollbars
+            </div>
+        </div>
+    </body>
+</html>
