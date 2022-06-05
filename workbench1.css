@@ -30,6 +30,10 @@ a:active {
     outline-width: 1px;
 }
 
+div.topbar a, div.window .titlebar a {
+    color: #0055AA;
+}
+
 div.topbar {
     background-color: #FFFFFF;
     color: #0055AA;
