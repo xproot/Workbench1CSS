@@ -2,7 +2,7 @@
 CSS Style Destined to look like Workbench 1.x [Live Demo](https://xproot.github.io/Workbench1CSS/)
 
 ## Usage
-Import the css file by first downloading it and then importing it this way
+Import the [css file](https://raw.githubusercontent.com/xproot/Workbench1CSS/main/workbench1.css) by first downloading it and then importing it this way
 1. In the html file, on the <head> part, add this 
 ```
 <link rel="stylesheet" type="text/css" href="workbench1.css">  
