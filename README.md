@@ -2,22 +2,20 @@
 CSS Style Destined to look like Workbench 1.x [Live Demo](https://xproot.github.io/Workbench1CSS/)
 
 ## Usage
-
 Import the [css file](https://raw.githubusercontent.com/xproot/Workbench1CSS/main/workbench1.css) by first downloading it and then import it however you desire.
 Below are two ways.
-
 - In the html file, on the <head> part, add this 
-```
+```html
 <link rel="stylesheet" type="text/css" href="workbench1.css">  
 ```
 - In your main CSS file, on the first line, add this
-```
+```css
 @import url('workbench1.css');  
 ```
 ---
  
 **By the way:** The [**Topaz New**](https://www.dafont.com/topaz-new.font) font is recommended, use it by adding 
-```
+```css
 @font-face {
     font-family: "Topaz";
     src: url(/assets/fonts/TopazNew.ttf);
@@ -36,7 +34,7 @@ html, body {
 ---
   
 In order to use the stylesheet by its fullest, Your body should look like this
-```
+```html
 <body>
   <div class="topbar">
     <span>Example GitHub File</span><span class="margin">Text with margin</span>   
@@ -55,7 +53,7 @@ That will give you a bar like this
 
 
 In order to add windows you should follow this Template
-```
+```html
 <div class="window">
   <div class="titlebar">
     <span>Title</span>
@@ -76,7 +74,7 @@ Our Document should look like this now
 
 In order to make the window to take up all the free space, we're going to add the ```fullwidth``` class to the ```<div class="window">``` element
   
-```
+```html
 <div class="fullwidth window">
   <div class="titlebar">
     <span>Title</span>
@@ -96,7 +94,7 @@ In order to make the window to take up all the free space, we're going to add th
   
 Nice! Now one more last thing, to hide the scrollbars you should add the ```noscroll``` class to the ```<div class="content">``` element
   
-```
+```html
 <div class="fullwidth window">
   <div class="titlebar">
     <span>Title</span>
