@@ -2,16 +2,20 @@
 CSS Style Destined to look like Workbench 1.x [Live Demo](https://xproot.github.io/Workbench1CSS/)
 
 ## Usage
-Import the [css file](https://raw.githubusercontent.com/xproot/Workbench1CSS/main/workbench1.css) by first downloading it and then importing it this way
-1. In the html file, on the <head> part, add this 
+
+Import the [css file](https://raw.githubusercontent.com/xproot/Workbench1CSS/main/workbench1.css) by first downloading it and then import it however you desire.
+Below are two ways.
+
+- In the html file, on the <head> part, add this 
 ```
 <link rel="stylesheet" type="text/css" href="workbench1.css">  
 ```
-2. In your main CSS file, on the first line, add this
+- In your main CSS file, on the first line, add this
 ```
 @import url('workbench1.css');  
 ```
-  
+---
+ 
 **By the way:** The [**Topaz New**](https://www.dafont.com/topaz-new.font) font is recommended, use it by adding 
 ```
 @font-face {
